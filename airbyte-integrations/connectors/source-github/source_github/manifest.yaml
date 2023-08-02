@@ -1,0 +1,57 @@
+version: "0.29.0"
+
+definitions:
+  selector:
+    type: RecordSelector
+    extractor:
+      type: DpathExtractor
+      field_path: []
+  requester:
+    type: HttpRequester
+    url_base: "https://api.github.com"
+    http_method: "GET"
+    authenticator:
+      type: BearerAuthenticator
+      api_token: "{{ config['api_key'] }}"
+  retriever:
+    type: SimpleRetriever
+    record_selector:
+      $ref: "#/definitions/selector"
+    paginator:
+      type: NoPagination
+    requester:
+      $ref: "#/definitions/requester"
+  base_stream:
+    type: DeclarativeStream
+    retriever:
+      $ref: "#/definitions/retriever"
+  repositories_stream:
+    $ref: "#/definitions/base_stream"
+    name: "repositories"
+    # primary_key: "org"
+    $parameters:
+      org: "Taiyogakure"
+      path: "/orgs/{{ parameters.org }}/repos"
+
+streams:
+  - "#/definitions/repositories_stream"
+
+check:
+  type: CheckStream
+  stream_names:
+    - "repositories"
+
+spec:
+  type: Spec
+  documentation_url: https://docs.airbyte.com/integrations/sources/github
+  connection_specification:
+    title: Github Spec
+    type: object
+    required:
+      - api_key
+    additionalProperties: true
+    properties:
+      api_key:
+        type: string
+        description: API Key
+        airbyte_secret: true
