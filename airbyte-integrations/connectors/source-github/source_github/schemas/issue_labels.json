@@ -6,25 +6,47 @@
       "type": "string"
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "name": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "description": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "color": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "default": {
-      "type": ["null", "boolean"]
+      "type": [
+        "null",
+        "boolean"
+      ]
     }
-  }
+  },
+  "additionalProperties": true
 }

@@ -6,31 +6,58 @@
       "type": "string"
     },
     "html_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "body": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "path": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "position": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "line": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "commit_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "user": {
       "$ref": "user.json"
@@ -44,10 +71,14 @@
       "format": "date-time"
     },
     "author_association": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "reactions": {
       "$ref": "reactions.json"
     }
-  }
+  },
+  "additionalProperties": true
 }

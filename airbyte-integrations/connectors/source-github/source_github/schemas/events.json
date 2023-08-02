@@ -6,26 +6,47 @@
       "type": "string"
     },
     "type": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "public": {
-      "type": ["null", "boolean"]
+      "type": [
+        "null",
+        "boolean"
+      ]
     },
     "payload": {
-      "type": ["null", "object"],
+      "type": [
+        "null",
+        "object"
+      ],
       "properties": {}
     },
     "repo": {
-      "type": ["null", "object"],
+      "type": [
+        "null",
+        "object"
+      ],
       "properties": {
         "id": {
-          "type": ["null", "integer"]
+          "type": [
+            "null",
+            "integer"
+          ]
         },
         "name": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         }
       }
     },
@@ -33,22 +54,40 @@
       "$ref": "user.json"
     },
     "org": {
-      "type": ["null", "object"],
+      "type": [
+        "null",
+        "object"
+      ],
       "properties": {
         "id": {
-          "type": ["null", "integer"]
+          "type": [
+            "null",
+            "integer"
+          ]
         },
         "login": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "gravatar_id": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "avatar_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         }
       }
     },
@@ -57,7 +96,11 @@
       "format": "date-time"
     },
     "id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     }
-  }
+  },
+  "additionalProperties": true
 }

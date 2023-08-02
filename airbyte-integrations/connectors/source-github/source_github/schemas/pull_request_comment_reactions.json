@@ -3,13 +3,22 @@
   "type": "object",
   "properties": {
     "id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "content": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "created_at": {
       "type": "string",
@@ -24,5 +33,6 @@
     "comment_id": {
       "type": "integer"
     }
-  }
+  },
+  "additionalProperties": true
 }

@@ -3,57 +3,108 @@
   "type": "object",
   "properties": {
     "id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "name": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "head_branch": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "head_sha": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "path": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "display_title": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "run_number": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "event": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "status": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "conclusion": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "workflow_id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "check_suite_id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "check_suite_node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "html_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "pull_requests": {
       "type": "array",
       "items": {
-        "type": ["null", "object"],
+        "type": [
+          "null",
+          "object"
+        ],
         "properties": {},
         "additionalProperties": true
       }
@@ -67,7 +118,10 @@
       "format": "date-time"
     },
     "run_attempt": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "referenced_workflows": {
       "type": "array",
@@ -91,52 +145,94 @@
       "format": "date-time"
     },
     "jobs_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "logs_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "check_suite_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "artifacts_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "cancel_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "rerun_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "previous_attempt_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "workflow_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "head_commit": {
       "type": "object",
       "properties": {
         "id": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "tree_id": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "message": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "timestamp": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "author": {
           "type": "object",
           "properties": {
             "name": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "email": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             }
           }
         },
@@ -144,10 +240,16 @@
           "type": "object",
           "properties": {
             "name": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "email": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             }
           }
         }
@@ -157,285 +259,555 @@
       "type": "object",
       "properties": {
         "id": {
-          "type": ["null", "integer"]
+          "type": [
+            "null",
+            "integer"
+          ]
         },
         "node_id": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "name": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "full_name": {
           "type": "string"
         },
         "private": {
-          "type": ["null", "boolean"]
+          "type": [
+            "null",
+            "boolean"
+          ]
         },
         "owner": {
           "$ref": "user.json"
         },
         "html_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "description": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "fork": {
-          "type": ["null", "boolean"]
+          "type": [
+            "null",
+            "boolean"
+          ]
         },
         "url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "forks_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "keys_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "collaborators_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "teams_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "hooks_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "issue_events_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "events_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "assignees_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "branches_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "tags_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "blobs_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "git_tags_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "git_refs_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "trees_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "statuses_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "languages_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "stargazers_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "contributors_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "subscribers_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "subscription_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "commits_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "git_commits_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "comments_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "issue_comment_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "contents_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "compare_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "merges_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "archive_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "downloads_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "issues_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "pulls_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "milestones_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "notifications_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "labels_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "releases_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "deployments_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         }
       }
     },
     "head_repository": {
-      "type": ["null", "object"],
+      "type": [
+        "null",
+        "object"
+      ],
       "properties": {
         "id": {
-          "type": ["null", "integer"]
+          "type": [
+            "null",
+            "integer"
+          ]
         },
         "node_id": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "name": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "full_name": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "private": {
-          "type": ["null", "boolean"]
+          "type": [
+            "null",
+            "boolean"
+          ]
         },
         "owner": {
           "$ref": "user.json"
         },
         "html_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "description": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "fork": {
-          "type": ["null", "boolean"]
+          "type": [
+            "null",
+            "boolean"
+          ]
         },
         "url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "forks_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "keys_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "collaborators_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "teams_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "hooks_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "issue_events_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "events_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "assignees_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "branches_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "tags_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "blobs_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "git_tags_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "git_refs_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "trees_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "statuses_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "languages_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "stargazers_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "contributors_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "subscribers_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "subscription_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "commits_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "git_commits_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "comments_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "issue_comment_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "contents_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "compare_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "merges_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "archive_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "downloads_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "issues_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "pulls_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "milestones_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "notifications_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "labels_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "releases_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "deployments_url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         }
       }
     },
@@ -445,5 +817,6 @@
     "triggering_actor": {
       "$ref": "user.json"
     }
-  }
+  },
+  "additionalProperties": true
 }

@@ -6,40 +6,73 @@
       "type": "string"
     },
     "url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "html_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "labels_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "number": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "state": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "title": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "description": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "creator": {
       "$ref": "user.json"
     },
     "open_issues": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "closed_issues": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "created_at": {
       "type": "string",
@@ -50,12 +83,19 @@
       "format": "date-time"
     },
     "closed_at": {
-      "type": ["null", "string"],
+      "type": [
+        "null",
+        "string"
+      ],
       "format": "date-time"
     },
     "due_on": {
-      "type": ["null", "string"],
+      "type": [
+        "null",
+        "string"
+      ],
       "format": "date-time"
     }
-  }
+  },
+  "additionalProperties": true
 }

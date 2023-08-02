@@ -6,42 +6,75 @@
       "type": "string"
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "user": {
       "$ref": "user_graphql.json"
     },
     "body": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "state": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "html_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "pull_request_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "_links": {
-      "type": ["null", "object"],
+      "type": [
+        "null",
+        "object"
+      ],
       "properties": {
         "html": {
-          "type": ["null", "object"],
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "href": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             }
           }
         },
         "pull_request": {
-          "type": ["null", "object"],
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "href": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             }
           }
         }
@@ -60,10 +93,17 @@
       "format": "date-time"
     },
     "commit_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "author_association": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     }
-  }
+  },
+  "additionalProperties": true
 }

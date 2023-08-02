@@ -9,10 +9,16 @@
       "type": "integer"
     },
     "workflow_name": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "head_branch": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "run_url": {
       "type": "string"
@@ -30,13 +36,19 @@
       "type": "string"
     },
     "html_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "status": {
       "type": "string"
     },
     "conclusion": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "created_at": {
       "type": "string",
@@ -47,7 +59,10 @@
       "format": "date-time"
     },
     "completed_at": {
-      "type": ["null", "string"],
+      "type": [
+        "null",
+        "string"
+      ],
       "format": "date-time"
     },
     "name": {
@@ -62,7 +77,10 @@
             "type": "string"
           },
           "conclusion": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "name": {
             "type": "string"
@@ -71,11 +89,17 @@
             "type": "integer"
           },
           "started_at": {
-            "type": ["null", "string"],
+            "type": [
+              "null",
+              "string"
+            ],
             "format": "date-time"
           },
           "completed_at": {
-            "type": ["null", "string"],
+            "type": [
+              "null",
+              "string"
+            ],
             "format": "date-time"
           }
         }
@@ -91,19 +115,32 @@
       }
     },
     "runner_id": {
-      "type": ["integer", "null"]
+      "type": [
+        "integer",
+        "null"
+      ]
     },
     "runner_name": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "runner_group_id": {
-      "type": ["integer", "null"]
+      "type": [
+        "integer",
+        "null"
+      ]
     },
     "runner_group_name": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "repository": {
       "type": "string"
     }
-  }
+  },
+  "additionalProperties": true
 }

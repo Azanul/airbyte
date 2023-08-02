@@ -3,10 +3,16 @@
   "type": "object",
   "properties": {
     "state": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "role": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "url": {
       "type": "string"
@@ -20,5 +26,6 @@
     "username": {
       "type": "string"
     }
-  }
+  },
+  "additionalProperties": true
 }

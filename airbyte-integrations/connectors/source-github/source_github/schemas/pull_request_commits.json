@@ -3,10 +3,16 @@
   "type": "object",
   "properties": {
     "sha": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "commit": {
       "type": "object",
@@ -15,10 +21,16 @@
           "type": "object",
           "properties": {
             "name": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "email": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "date": {
               "type": "string",
@@ -30,10 +42,16 @@
           "type": "object",
           "properties": {
             "name": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "email": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "date": {
               "type": "string",
@@ -42,52 +60,88 @@
           }
         },
         "message": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "tree": {
           "type": "object",
           "properties": {
             "sha": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "url": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             }
           }
         },
         "url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "comment_count": {
-          "type": ["null", "integer"]
+          "type": [
+            "null",
+            "integer"
+          ]
         },
         "verification": {
           "type": "object",
           "properties": {
             "verified": {
-              "type": ["null", "boolean"]
+              "type": [
+                "null",
+                "boolean"
+              ]
             },
             "reason": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "signature": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "payload": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             }
           }
         }
       }
     },
     "url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "html_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "comments_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "author": {
       "$ref": "user.json"
@@ -101,13 +155,22 @@
         "type": "object",
         "properties": {
           "sha": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "url": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "html_url": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           }
         }
       }
@@ -118,5 +181,6 @@
     "pull_number": {
       "type": "integer"
     }
-  }
+  },
+  "additionalProperties": true
 }

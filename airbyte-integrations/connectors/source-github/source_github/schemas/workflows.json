@@ -1,21 +1,36 @@
 {
   "$schema": "https://json-schema.org/draft-04/schema#",
-  "type": ["null", "object"],
+  "type": [
+    "null",
+    "object"
+  ],
   "properties": {
     "id": {
       "type": "integer"
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "name": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "path": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "state": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "created_at": {
       "type": "string",
@@ -26,16 +41,26 @@
       "format": "date-time"
     },
     "url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "html_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "badge_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "repository": {
       "type": "string"
     }
-  }
+  },
+  "additionalProperties": true
 }

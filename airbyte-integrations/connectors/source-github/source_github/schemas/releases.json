@@ -6,92 +6,173 @@
       "type": "string"
     },
     "url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "html_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "assets_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "upload_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "tarball_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "zipball_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "tag_name": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "target_commitish": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "name": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "body": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "draft": {
-      "type": ["null", "boolean"]
+      "type": [
+        "null",
+        "boolean"
+      ]
     },
     "prerelease": {
-      "type": ["null", "boolean"]
+      "type": [
+        "null",
+        "boolean"
+      ]
     },
     "created_at": {
       "type": "string",
       "format": "date-time"
     },
     "published_at": {
-      "type": ["null", "string"],
+      "type": [
+        "null",
+        "string"
+      ],
       "format": "date-time"
     },
     "author": {
       "$ref": "user.json"
     },
     "assets": {
-      "type": ["null", "array"],
+      "type": [
+        "null",
+        "array"
+      ],
       "items": {
-        "type": ["null", "object"],
+        "type": [
+          "null",
+          "object"
+        ],
         "properties": {
           "url": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "browser_download_url": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "id": {
-            "type": ["null", "integer"]
+            "type": [
+              "null",
+              "integer"
+            ]
           },
           "node_id": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "name": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "label": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "state": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "content_type": {
-            "type": ["null", "string"]
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "size": {
-            "type": ["null", "integer"]
+            "type": [
+              "null",
+              "integer"
+            ]
           },
           "download_count": {
-            "type": ["null", "integer"]
+            "type": [
+              "null",
+              "integer"
+            ]
           },
           "created_at": {
             "type": "string",
@@ -102,25 +183,41 @@
             "format": "date-time"
           },
           "uploader_id": {
-            "type": ["null", "integer"]
+            "type": [
+              "null",
+              "integer"
+            ]
           }
         }
       }
     },
     "body_html": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "body_text": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "mentions_count": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "discussion_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "reactions": {
       "$ref": "reactions.json"
     }
-  }
+  },
+  "additionalProperties": true
 }

@@ -1,15 +1,27 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema#",
-  "type": ["null", "object"],
+  "type": [
+    "null",
+    "object"
+  ],
   "properties": {
     "id": {
-      "type": ["null", "integer"]
+      "type": [
+        "null",
+        "integer"
+      ]
     },
     "node_id": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "content": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "created_at": {
       "type": "string",
@@ -24,5 +36,6 @@
     "issue_number": {
       "type": "integer"
     }
-  }
+  },
+  "additionalProperties": true
 }

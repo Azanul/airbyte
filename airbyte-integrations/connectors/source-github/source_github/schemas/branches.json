@@ -6,35 +6,65 @@
       "type": "string"
     },
     "name": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "commit": {
-      "type": ["null", "object"],
+      "type": [
+        "null",
+        "object"
+      ],
       "properties": {
         "sha": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "url": {
-          "type": ["null", "string"]
+          "type": [
+            "null",
+            "string"
+          ]
         }
       }
     },
     "protected": {
-      "type": ["null", "boolean"]
+      "type": [
+        "null",
+        "boolean"
+      ]
     },
     "protection": {
-      "type": ["null", "object"],
+      "type": [
+        "null",
+        "object"
+      ],
       "properties": {
         "required_status_checks": {
-          "type": ["null", "object"],
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "enforcement_level": {
-              "type": ["null", "string"]
+              "type": [
+                "null",
+                "string"
+              ]
             },
             "contexts": {
-              "type": ["null", "array"],
+              "type": [
+                "null",
+                "array"
+              ],
               "items": {
-                "type": ["null", "string"]
+                "type": [
+                  "null",
+                  "string"
+                ]
               }
             }
           }
@@ -42,7 +72,11 @@
       }
     },
     "protection_url": {
-      "type": ["null", "string"]
+      "type": [
+        "null",
+        "string"
+      ]
     }
-  }
+  },
+  "additionalProperties": true
 }

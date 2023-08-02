@@ -1,4 +1,5 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema#",
-  "$ref": "reaction.json"
+  "$ref": "reaction.json",
+  "additionalProperties": true
 }
